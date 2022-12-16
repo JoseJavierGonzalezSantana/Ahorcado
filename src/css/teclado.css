@@ -1,0 +1,92 @@
+#teclado {
+  width: 370px;
+  height: 135px;
+  padding: 30px 8px 8px;
+  margin: 60px auto;
+  box-shadow: inset 1px 1px 0px #f1f1f1, 3px 3px 6px 3px #303038;
+  margin: 0px auto;
+  border-radius: 9px;
+  border: #000;
+  padding: 30px;
+  max-width: 816px;
+  padding: 30px 8px 8px;
+  margin: 60px auto;
+  box-shadow: inset 1px 1px 0px #2e2e2e, 3px 3px 6px 3px #303038;
+  background-color: #282a36;
+  border-radius: 1px 1px 7px 7px;
+}
+.tecla {
+  width: 25px;
+  height: 35px;
+  display: block;
+  margin: 2px;
+  background-color: #333;
+  box-shadow: 0px 0px 10px #14b524;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius: 2px;
+  float: left;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+}
+.tecla:hover {
+  color: #000;
+  background-color: white;
+}
+.tecla:active {
+  transform: translateY(1.5px);
+  box-shadow: inset 0 -0.5px 0 #aaaaaa, inset 0px -1px 1px -1px #fff,
+    0px 0.5px 0.75px 0px #999;
+}
+.tecla::before {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  content: "";
+}
+
+.acertado {
+  width: 25px;
+  height: 35px;
+  display: block;
+  background-color: #14b524;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius: 2px;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+
+  cursor: default;
+}
+.fallado {
+  width: 25px;
+  height: 35px;
+  display: block;
+  background-color: red;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius: 2px;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+
+  cursor: default;
+}
+
+.bloque1 {
+  position: relative;
+}
+.bloque2 {
+  position: relative;
+  left: 10px;
+}
+.bloque3 {
+  position: relative;
+  left: 40px;
+}

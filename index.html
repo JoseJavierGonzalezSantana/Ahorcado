@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ahorcado</title>
+    <link rel="stylesheet" href="./src/css/menu.css" />
+    <link rel="stylesheet" href="./src/css/fontawesome-all.min.css" />
+
+  </head>
+ <body>
+    <div class="grid-container">
+      <div class="i1"> <img
+        src=""
+          alt=""
+          id="titulo"
+          width="300px"
+        /></div>
+      <div class="i2"></div>
+      <div class="i3">
+       
+        <section class="menu">
+          <div class="button" id="arcade"><a data-title="Adivina las palabras y avanza de nivel">
+            Arcade <br> <img
+            src="./src/img/icono arcade.png"
+              alt=""
+              width="50px"
+            />
+          </a></div>
+          <div class="button" id="multi">
+            <a data-title="Juega con hasta 10 jugadores">Multijugador<br> <img
+              src="./src/img/icono multi.png"
+                alt=""
+                class="button-img"
+                width="50px"
+              />
+          </a></div>
+          <div class="button" id="versus"><a data-title="Enfretate a la CPU">Versus <br><img
+            src="./src/img/icono vs.png"
+              alt=""
+              width="50px"
+            /></a></div>
+          <div class="button" id="creditos"><a data-title="Muestra los creditos">Creditos  </a></div>
+        </section>
+      </div>
+      <div class="i4"></div>
+    </div>
+    
+    
+    <section id="sonidos"></section>  
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="./src/js/Sonidos.js"></script> 
+    <script src="./src/js/firebaseConfig.js"></script>
+    <script src="./src/js/Online.js"></script>
+    <script src="./src/js/sweetalert211.js"></script>
+    <script src="./src/js/menuFunction.js"></script>
+    <script src="./src/js/menu.js"></script>
+    <script src="./src/js/all.min.js"></script>
+  </body>
+</html>

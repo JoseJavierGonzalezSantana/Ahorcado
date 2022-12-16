@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ahorcado</title>
+    <link rel="stylesheet" href="./src/css/horca.css" />
+    <link rel="stylesheet" href="./src/css/teclado.css" />
+
+  </head>
+  <body>
+  
+    <div class="grid-container">
+
+      <div class="ranking">
+        <div class="grid">
+          <h1 class="grid-title">
+            Ranking
+          </h1>
+          <div id="marcador">
+          </div>
+        </div>
+      </div>
+<div id="jugadores"></div>
+      <div class="i2">
+        <div id="teclado"></div>
+        <button id="pistaBtn">Dar pista</button>
+      </div>
+
+      <div class="i3">
+      </div>
+      
+      <div class="i4"> 
+
+      <img src="./src/img/frame1.png" alt="" id="imgMuñeco" />
+      <div id="palabra"></div>
+      <p id="pista"></p>
+    </div>
+      </div>
+   
+
+      <section id="sonidos"></section>
+    
+      <script src="./src/js/Sonidos.js"></script>
+    <script src="./src/js/sweetalert211.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+      <script src="./src/js/firebaseConfig.js"></script>
+      <script src="./src/js/updateBD.js"></script>
+      <script src="./src/js/horcaOnline.js"></script>
+    <script src="./src/js/muñeco.js"></script>
+    <script src="./src/js/teclado.js"></script>
+  </body>
+</html>

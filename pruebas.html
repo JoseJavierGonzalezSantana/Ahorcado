@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/pruebas.css">
+  </head>
+  <body>
+    <header></header>
+  </body>
+  <div id="game-container">
+  </div>
+  <div class="player-info">
+    <div>
+      <div class="button font" onclick="newGame(); this.onclick = null;">Host a Game</div>
+	<div class="button font" onclick="joinGame(this)">Join a Game</div>
+      <label for="player-name">Your Name</label>
+      <input id="player-name" maxlength="10" type="text" />
+    </div>
+    <div>
+      <button id="player-color">Change name</button>
+    </div>
+  </div>
+
+  
+  <script>
+  
+  </script>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <script src="./src/js/pruebas.js"></script>
+</html>
